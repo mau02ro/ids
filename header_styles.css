@@ -72,7 +72,6 @@ html {
   display: block;
   width: 100px;
   height: 100px;
-  /* background-image: url("https://explore.idskids.com/hubfs/Everbrave/logo.svg"); */
   position: relative;
   z-index: 0;
   top: -10px;
@@ -179,6 +178,10 @@ html {
     transition: 0.3s;
   }
   .hd__menu > .hd__menu-subMenu:hover > a {
+    color: #00678e;
+  }
+  .hd__subMenu a:hover {
+    background: #eeeeee;
     color: #00678e;
   }
 }
