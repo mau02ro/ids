@@ -37,6 +37,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: red;
 }
 html {
   box-sizing: border-box;
@@ -69,11 +70,18 @@ html {
 /* Logo */
 /* ================= */
 .hd__logo {
-  display: block;
+  line-height: 1;
   position: relative;
   width: 100px;
   height: 80px;
   overflow: hidden;
+}
+.hd__logo svg{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: -10px;
 }
 
 /* ================= */
