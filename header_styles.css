@@ -76,7 +76,7 @@ html {
   height: 80px;
   overflow: hidden;
 }
-.hd__logo svg{
+.hd__logo svg {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -278,7 +278,15 @@ html {
 
 @media screen and (max-width: 1228px) {
   #hd__wrapper {
-    max-width: 950px !important;
+    max-width: 964px !important;
+  }
+}
+@media (max-width: 1199px) {
+  /* ================= */
+  /* Menu */
+  /* ================= */
+  .hd__menu > li {
+    margin-right: 45px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -453,6 +461,11 @@ html {
   /* ================= */
   .hd__logo {
     display: block;
+    width: 85px;
+    height: 65px;
+  }
+
+  .hd__logo svg {
     width: 85px;
     height: 85px;
   }
