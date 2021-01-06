@@ -70,11 +70,10 @@ html {
 /* ================= */
 .hd__logo {
   display: block;
-  width: 100px;
-  height: 100px;
   position: relative;
-  z-index: 0;
-  top: -10px;
+  width: 100px;
+  height: 80px;
+  overflow: hidden;
 }
 
 /* ================= */
