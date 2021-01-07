@@ -50,6 +50,12 @@ html {
   padding: 0;
 }
 
+#hd,
+#hd * {
+  font-family: "myriad-pro", "Myriad Pro", "Arial", "Helvetica Neue",
+    "Helvetica", sans-serif !important;
+}
+
 #hd {
   background: #00aeeb;
 }
