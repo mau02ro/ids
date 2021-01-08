@@ -49,6 +49,11 @@ html {
   padding: 0;
 }
 
+#ft,
+#ft * {
+  font-family: "myriad-pro", "Myriad Pro", "Arial", "Helvetica Neue",
+    "Helvetica", sans-serif !important;
+}
 #ft {
   color: #000;
   font-family: "MyriadPro", Arial, Helvetica, sans-serif;
@@ -192,7 +197,6 @@ html {
 .ft__menu {
   display: flex;
   flex-wrap: wrap;
-  /* padding-top: 2px; */
 }
 .ft__menu-item {
   flex-basis: calc(100% / 3);
@@ -206,11 +210,7 @@ html {
   margin-bottom: 25px;
   display: block;
 }
-.ft__menu-item:nth-child(1) > span,
-.ft__menu-item:nth-child(2) > span,
-.ft__menu-item:nth-child(3) > span {
-  /* margin-bottom: 24px; */
-}
+
 .ft__menu-menuItem {
   display: block;
   margin-bottom: 10px;
