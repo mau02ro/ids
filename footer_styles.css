@@ -305,7 +305,6 @@ html {
 
 @media screen and (max-width: 991px) {
   .ft__wrapper {
-    max-width: 539px !important;
     width: 90%;
     margin: 0 auto;
   }
@@ -336,6 +335,9 @@ html {
   }
 }
 @media screen and (max-width: 767px) {
+  .ft__wrapper{
+    max-width: 539px !important;
+  }
   /* ========================== */
   /* MENU */
   /* ========================== */
