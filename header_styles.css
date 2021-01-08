@@ -61,7 +61,7 @@ html {
 }
 #hd__wrapper {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1254px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -72,6 +72,11 @@ html {
   list-style: none;
 }
 
+@media (max-width: 1619px) {
+}
+#hd__wrapper {
+  max-width: 1170px !important;
+}
 /* ================= */
 /* Logo */
 /* ================= */
