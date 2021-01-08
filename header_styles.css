@@ -56,6 +56,10 @@ html {
     "Helvetica", sans-serif !important;
 }
 
+#hd ul{
+  padding-inline-start: 0px !important;
+}
+
 #hd {
   background: #00aeeb;
 }
