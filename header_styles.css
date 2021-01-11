@@ -56,7 +56,7 @@ html {
     "Helvetica", sans-serif !important;
 }
 
-#hd ul{
+#hd ul {
   padding-inline-start: 0px !important;
 }
 
@@ -77,10 +77,11 @@ html {
 }
 
 @media (max-width: 1619px) {
+  #hd__wrapper {
+    max-width: 1170px !important;
+  }
 }
-#hd__wrapper {
-  max-width: 1170px !important;
-}
+
 /* ================= */
 /* Logo */
 /* ================= */
