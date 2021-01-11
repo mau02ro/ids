@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "MyriadPro";
+  src: url("./font/MyriadPro-Regular.eot");
+  src: url("./font/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./font/MyriadPro-Regular.woff") format("woff"),
+    url("./font/MyriadPro-Regular.woff2") format("woff2"),
+    url("./font/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("./font/MyriadPro-Semibold.eot");
+  src: url("./font/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("./font/MyriadPro-Semibold.woff") format("woff"),
+    url("./font/MyriadPro-Semibold.woff2") format("woff2"),
+    url("./font/MyriadPro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("./font/MyriadPro-Bold.eot");
+  src: url("./font/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./font/MyriadPro-Bold.woff") format("woff"),
+    url("./font/MyriadPro-Bold.woff2") format("woff2"),
+    url("./font/MyriadPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -13,11 +49,6 @@ html {
   padding: 0;
 }
 
-#ft,
-#ft * {
-  font-family: "myriad-pro", "Myriad Pro", "Arial", "Helvetica Neue",
-    "Helvetica", sans-serif !important;
-}
 #ft {
   color: #000;
   font-family: "MyriadPro", Arial, Helvetica, sans-serif;
@@ -45,7 +76,7 @@ html {
 .ft__socials {
   position: relative;
   top: -23px;
-  margin-bottom: 47px;
+  margin-bottom: 48px;
 }
 .ft__socials-wrapper {
   width: 100%;
@@ -83,7 +114,7 @@ html {
 .ft__main {
   min-width: 420px;
   max-width: min-content;
-  margin-right: 190px;
+  margin-right: 188px;
 }
 .ft__main-item {
   margin-bottom: 70px;
@@ -135,25 +166,35 @@ html {
   margin-right: 10px;
 }
 .ft__main-newsletter_btn {
-  font-size: 16px;
-  height: 42px;
-  border: none !important;
-  min-width: auto !important;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: 0.3s;
   background: #00aeeb;
+  border: 2px solid #00aeeb;
   color: #ffffff;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  height: 54px;
+  padding: 0 30px;
   transition: 0.3s;
   letter-spacing: 0.2px;
+  max-width: fit-content;
   border-radius: 40px;
   padding-top: 2px;
-  width: 127px;
+  white-space: nowrap;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+.ft__main-newsletter_form form button {
+  font-size: 16px;
+  height: 42px;
+  border: none !important;
 }
 /* ========================== */
 /* MENU */
@@ -193,6 +234,7 @@ html {
 }
 .ft__menu-contactsItem {
   display: block;
+  margin-bottom: 10px;
 }
 
 /* ========================== */
