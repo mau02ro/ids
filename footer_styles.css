@@ -76,7 +76,7 @@ html {
 .ft__socials {
   position: relative;
   top: -23px;
-  margin-bottom: 48px;
+  margin-bottom: 49px;
 }
 .ft__socials-wrapper {
   width: 100%;
@@ -114,7 +114,7 @@ html {
 .ft__main {
   min-width: 420px;
   max-width: min-content;
-  margin-right: 188px;
+  margin-right: 187.5px;
 }
 .ft__main-item {
   margin-bottom: 70px;
@@ -205,7 +205,7 @@ html {
 }
 .ft__menu-item {
   flex-basis: calc(100% / 3);
-  margin-bottom: 51px;
+  margin-bottom: 48px;
 }
 .ft__menu-item-title {
   letter-spacing: 0.15px;
@@ -231,6 +231,9 @@ html {
   transition: 0.3s;
   line-height: 1.1;
   text-decoration: none;
+}
+.ft__menu-contacts {
+  margin-top: 10px;
 }
 .ft__menu-contactsItem {
   display: block;
